@@ -9,6 +9,7 @@
         ],
         "sourceMaps": "inline"
     },
+    "bugs": "https://github.com/ibi-group/isotropic-create/issues",
     "contributors": [
         "Duane Sibilly <duane.sibilly@ibigroup.com>"
     ],
@@ -45,9 +46,11 @@
         },
         "root": true
     },
+    "homepage": "https://github.com/ibi-group/isotropic-create",
     "license": "BSD-3-Clause",
     "main": "lib/create.js",
     "name": "isotropic-create",
+    "repository": "ibi-group/isotropic-create",
     "scripts": {
         "build": "babel js -d lib",
         "lint": "eslint js test",
