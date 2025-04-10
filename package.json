@@ -3,6 +3,7 @@
     "bugs": "https://github.com/ibi-group/isotropic-create/issues",
     "description": "Creates an object with a specific constructor function and prototype object",
     "devDependencies": {
+        "eslint": "~9.8.0",
         "isotropic-dev-dependencies": "~0.3.0"
     },
     "engines": {
