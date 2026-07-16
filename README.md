@@ -1,7 +1,7 @@
 # isotropic-create
 
-[![npm version](https://img.shields.io/npm/v/isotropic-character-fold.svg)](https://www.npmjs.com/package/isotropic-character-fold)
-[![License](https://img.shields.io/npm/l/isotropic-character-fold.svg)](https://github.com/ibi-group/isotropic-character-fold/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/isotropic-create.svg)](https://www.npmjs.com/package/isotropic-create)
+[![License](https://img.shields.io/npm/l/isotropic-create.svg)](https://github.com/ibi-group/isotropic-create/blob/main/LICENSE)
 ![](https://img.shields.io/badge/tests-passing-brightgreen.svg)
 ![](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
 
@@ -29,7 +29,7 @@ npm install isotropic-create
 import _create from 'isotropic-create';
 
 // Define a constructor function
-const _Person = (name, age) => {
+const _Person = function (name, age) {
     const instance = _create(_Person, _Person.prototype);
 
     instance.name = name;
