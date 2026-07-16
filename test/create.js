@@ -1,9 +1,9 @@
 import _chai from 'isotropic-dev-dependencies/lib/chai.js';
-import _create from '../js/create.js';
-import _mocha from 'isotropic-dev-dependencies/lib/mocha.js';
+import _create from '../lib/create.js';
+import _test from 'node:test';
 
-_mocha.describe('create', () => {
-    _mocha.it('should create an object with the given constructor function and prototype object', () => {
+_test.describe('create', () => {
+    _test.it('should create an object with the given constructor function and prototype object', () => {
         const ConstructorFunction = () => void null,
             prototypeObject = {
                 a: 'a',
