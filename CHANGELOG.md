@@ -1,4 +1,13 @@
-# Changelog
+# isotropic-create Changelog
+
+## 0.14.1 - 2026-08-23
+
+### Changed
+
+- Recommends `node ^26.7.0` / `npm ^11.19.0`.
+- `repository` now uses npm's preferred object form with explicit `type` and `url` properties rather than the `github:` shorthand. This is package metadata only.
+
+No runtime behavior changed in this release.
 
 ## 0.14.0 - 2026-07-15
 
@@ -28,7 +37,7 @@ Nothing to change beyond running on Node 26. The implementation of this package 
 
 ### Changed
 
-- A comprehensive README was added, documenting the full public interface with worked examples.
+- A comprehensive README was added, documenting the full public interface with examples.
 - `eslint` pinned at `~9.8.0` as a direct dev dependency to guarantee the intended version is installed.
 - `isotropic-dev-dependencies` bumped to `~0.3.1`.
 
@@ -65,7 +74,9 @@ No runtime behavior changed in this release.
 
 ### Changed
 
-- The entire dev toolchain was replaced by a single `isotropic-dev-dependencies` dev dependency. The Babel, ESLint, and nyc configuration blocks were removed from `package.json` in favor of shared configuration, and git hooks are now installed via Husky on `postinstall`.
+- The entire dev toolchain was replaced by a single `isotropic-dev-dependencies` dev dependency.
+- The Babel, ESLint, and nyc configuration blocks were removed from `package.json` in favor of shared configuration.
+- Git hooks are now installed via Husky on `postinstall`.
 - Recommends `node ^14.15.5` / `npm ^7.5.4`.
 
 No runtime behavior changed in this release.
@@ -176,7 +187,8 @@ No runtime behavior changed in this release.
 
 ### Changed
 
-`babel-runtime` bumped to `~6.9.1`; dev dependency refresh.
+- Dev dependency refresh.
+- `babel-runtime` bumped to `~6.9.1`.
 
 No runtime behavior changed in this release.
 
